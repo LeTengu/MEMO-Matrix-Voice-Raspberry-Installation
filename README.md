@@ -17,11 +17,11 @@
 
      sudo raspi-config
 
-1) changement hostname :      NETWORK OPTIONS >> Hostname      (pour moi: raspi-tengu).
-2) utilisation de toute la carte. SD :    ADVANCED OPTIONS >> Expand Filesystem.
-3) Localisation :    Options >> Change Timezone    (pour moi: Europe Paris)
-4) Localisation :    Options >> Change Wi-fi Country    (pour moi: France)
-5) Sauvegarder et rebooter
+1) changement hostname :      `NETWORK OPTIONS >> Hostname`      (pour moi: raspi-tengu).
+2) utilisation de toute la carte. SD :    `ADVANCED OPTIONS >> Expand Filesystem`.
+3) Localisation :    `Options >> Change Timezone`    (pour moi: Europe puis Paris).
+4) Localisation :    `Options >> Change Wi-fi Country`    (pour moi: France).
+5) Sauvegarder et rebooter.
 
 <h3>b) mise à jour:</h3>
 
@@ -53,7 +53,7 @@
 7.     sam test speaker
 8.     sam test microphone
 
-*raspi-tengu est le nom que vous avez donné à votre raspberry,<br />
+*raspi-tengu est le nom que vous avez donné à votre raspberry, par défaut raspberrypi<br />
 peut-être remplacé par son adresse ip. 
 
 
