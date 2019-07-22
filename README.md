@@ -65,7 +65,7 @@ chercher la ligne :<br />
 
      # mike =  "Built-in Microphone"
 
-écrire en desous ou remplacer par :<br />
+écrire en dessous ou remplacer par :<br />
 
      mike = "MATRIXIO-SOUND: - (hw:2,0)"
 
@@ -75,4 +75,4 @@ puis rebooter.
 
      sam install assistant
      
-# Enjoy :-)
+# C'est fini !   ;-)
