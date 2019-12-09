@@ -35,7 +35,11 @@
 
 <h3>d) installation Matrix Voice :</h3>
 
-1)     curl https://apt.matrix.one/doc/apt-key.gpg | sudo apt-key add - echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/matrixlabs.list
+1)     curl https://apt.matrix.one/doc/apt-key.gpg | sudo apt-key add -
+       echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/matrixlabs.list
+
+
+curl https://apt.matrix.one/doc/apt-key.gpg | sudo apt-key add - echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/matrixlabs.list
 2)     sudo apt-get update
 3)     sudo apt-get upgrade 
 4)     sudo reboot
